@@ -10,8 +10,7 @@
 
 [rt]
 name=Rocky Linux $releasever - Realtime
-mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=RT-$releasever
-#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/RT/$basearch/os/
+baseurl=http://dl.rockylinux.org/pub/rocky/8.10/RT/$basearch/os/
 gpgcheck=1
 enabled=0
 countme=1
