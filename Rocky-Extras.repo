@@ -10,8 +10,7 @@
 
 [extras]
 name=Rocky Linux $releasever - Extras
-mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=extras-$releasever
-#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/extras/$basearch/os/
+baseurl=http://dl.rockylinux.org/pub/rocky/8.10/extras/$basearch/os/
 gpgcheck=1
 enabled=1
 countme=1
