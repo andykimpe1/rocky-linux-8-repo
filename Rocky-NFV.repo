@@ -10,8 +10,7 @@
 
 [nfv]
 name=Rocky Linux $releasever - NFV
-mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=NFV-$releasever
-#baseurl=http://dl.rockylinux.org/$contentdir/$releasever/nfv/$basearch/os/
+baseurl=http://dl.rockylinux.org/pub/rocky/8.10/nfv/$basearch/os/
 gpgcheck=1
 enabled=0
 countme=1
